@@ -1,53 +1,66 @@
 # Assessment for Week 6
 
-Being a developer requires an acute attention to detail. The expectation of this assessment is that all instructions are read carefully and followed completely.
+// TEMPLATE OF A TEST
+// describe("greeter", () => { 
+  // it("returns a generic greeting", () => { 
+    // expect(greeter()).toEqual("Hello, LEARN student!") 
+  // }) 
+// })
 
-A good developer will ask clarifying questions when a task is unclear and use all the resources at their disposal.
+// TEMPLATE FOR PSEUDOCODE
+// Function Signature
 
-The step-by-step instructions [here](https://github.com/LEARNAcademy/Syllabus/blob/main/github/assessments.md) breakdown the git and GitHub process for this assessment.
+// input: number 
+// output: string indicating allowed, denied, or error
 
-Assessment should be accessed through the GitHub Classroom link provided to you in Slack.
+// input: 39 
+// output: "Cannot ride the rollercoaster"
 
-PRs should be posted _before_ class begins on Monday of **Week 8**.
+// PROCESS 
+// create a function called tallEnough that takes in a number called height 
+// if height is less than 40 return "Cannot ride the rollercoaster" 
+// if height is greater than or equal to 40 return "Buckle up, let's ride" 
+// any other input return error
 
----
+// TEMPLATE OF A FUNCTION 
+// const greeter = () => { 
+  // return "Hello, LEARN student!" 
+// }
 
-### Assessment Review Process
+// PROMPTS 
+// Write the test for a function called doubler that takes a number and returns the result of the number multiplied by 2. 
+// describe(name of function as a string, callback function) 
+// it(description of the function as a string, callback function) 
+// expect statement with the function call and the jest matcher with the expected output
 
-When an instructor reviews a student's assessment the instructor is evaluating the work through the lens of the Dreyfus model of skill acquisition. The Dreyfus model describes how individuals progress through various levels in their learning process of new skills in the following levels: novice, advanced beginner, competent, proficient, expert. For this course students will be evaluated as novice, advanced beginner, or competent skill levels. Skill levels are not grades! Skill levels measure current understanding of a set of topics covered in class.
+// describe("greeter", () => { 
+  // it("returns a generic greeting", () => { 
+    // expect(greeter()).toEqual("Hello, LEARN student!") 
+  // }) 
+// })
 
-Assessments are expected to be completed on time. In the event of an emergency, a professional developer will communicate to the instructor and reestablish a deadline suitable to both parties. Assessments turned in late without communication will be evaluated at a lower level of skill acquisition.
+// Good failure: 
+// FAIL ./week.test.js
 
-**Incomplete**  
-An assessment that is considered incomplete is one that did not meet the requirements of a valid attempt on every question. Incomplete assessments will not be reviewed and will be returned to the student for completion. Students with incomplete assessments will not be able access the next assessment until the current one is complete. An assessment will be considered incomplete due to the following:
+// Create the function that will make the test pass.
 
-- questions with no answer (excluding STRETCH options)
-- no pseudo code when requested
-- non-working code with no accompanying explanation
+// TEMPLATE FOR PSEUDOCODE 
+// Function Signature
 
-**Complete**  
-An assessment that is considered complete is one that met the bare minimum requirements of a valid attempt on every question. An assessment that is considered complete did not display enough effort to reach the novice level of skill acquisition.
+// input: number 
+// output: string indicating allowed, denied, or error
 
-**Novice**  
-The novice stage is the first level of skill acquisition. In the novice level, the student is just beginning to understand the skill and requires a step-by-step "recipe" to produce an output. An assessment that is considered at the novice level of skill acquisition is one that met the requirements of a valid attempt on every question while closely following process notes from class to produce:
+// input: 39 
+// output: "Cannot ride the rollercoaster"
 
-- basic pseudo code
-- code that will output content in the terminal
-- "your answers" written in the student's own words
-- researched answers written in the student's own words that provides additional context
+// PROCESS 
+// create a function called tallEnough that takes in a number called height 
+// if height is less than 40 return "Cannot ride the rollercoaster" 
+// if height is greater than or equal to 40 return "Buckle up, let's ride" 
+// any other input return error
 
-**Advanced Beginner**  
-The advanced beginner stage is the second level of skill acquisition. In the advanced beginner level, the student can begin to troubleshoot problems on their own and can decide if the "recipe" will be able to produce a particular outcome. An assessment that is considered at the advanced beginner level of skill acquisition is one that met the requirements of a valid attempt on every question while adapting process notes from class to produce:
+// Function 
+const doubler = (number) => { return number * 2 }
 
-- pseudo code with proper vocabulary terms
-- code that will output correct content in the terminal
-- "your answers" written in complete sentences the student's own words that provide partially correct comments
-- researched answers written in complete sentences in the student's own words that provides additional context
-
-**Competent**  
-The competent stage is the third level of skill acquisition. In the competent level, the student can decide what information is relevant to solve the problem and can begin to create their own "recipe" to produce a particular outcome. An assessment that is considered at the competent level of skill acquisition is one that met the requirements of a valid attempt on every question while adapting process notes from class as well as from other resources to produce:
-
-- detailed pseudo code with proper vocabulary terms
-- code that will output correct content in the terminal following best practices
-- "your answers" written in complete sentences the student's own words that provide correct answers
-- well researched and detailed answers written in complete sentences in the student's own words that provides additional context
+// Passing 
+// PASS ./week.test.js
